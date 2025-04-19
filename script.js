@@ -1,7 +1,6 @@
 function makeid(l) {
-// Function to generate a random alphanumeric string of length l
-function makeid(l) {
-  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  // write your code here
+	 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let result = '';
   const charactersLength = characters.length;
 
@@ -11,9 +10,9 @@ function makeid(l) {
     result += characters.charAt(randomIndex);
   }
 
-  return result;
+  return result
 }
 
 // Do not change the code below.
 const l = prompt("Enter a number.");
-alert(makeid(l)); // Shows the generated string with the specified length
+alert(makeid(l));
